@@ -1,0 +1,10 @@
+name: UserCheck
+version: '${project.version}'
+main: usercheck.usercheck.UserCheck
+api-version: 1.18
+description: UserCheck
+commands:
+  uc:
+    description: 유저확인
+    permission:
+    usage: /<command> <player>
